@@ -1,5 +1,5 @@
 //Method using splice() 
-function confirm Ending(str, target) {
+function confirmEnding(str, target) {
 if (str.slice(str.length - target.length) == target) {
     return true;
   }
